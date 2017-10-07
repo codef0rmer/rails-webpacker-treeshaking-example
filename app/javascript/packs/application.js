@@ -6,6 +6,6 @@
 //
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
-import { cube } from './math.js';
+import { cube } from '../math';
 
 console.log('Hello World from Webpacker', cube(5))
